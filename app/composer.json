@@ -1,5 +1,5 @@
 {
-    "name": "loyd/mavdev",
+    "name": "loyd/docker-php",
     "description": "A Docker demo app for loyd.tech",
     "minimum-stability": "dev",
     "license": "MIT",
@@ -14,6 +14,7 @@
         "ext-pdo": "*",
         "ext-pdo_mysql": "*",
         "symfony/cache": "^6.1",
+        "symfony/var-exporter": "^6.3.6",
         "predis/predis": "^2.0"
     },
     "require-dev": {
