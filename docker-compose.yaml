@@ -10,6 +10,7 @@ services:
     build:
       context: .
       dockerfile: ./php/Dockerfile
+      target: app
 
   db:
     image: mysql:8.0
